@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Note } from '../../models/Note';
+import { NoteService } from '../../services/note.service'
 
 @Component({
   selector: 'app-notebook',
@@ -10,35 +11,10 @@ export class NotebookComponent implements OnInit {
 
   notebook:Note[];
 
-  constructor() { }
+  constructor(private noteService:NoteService) { }
 
   ngOnInit() {
-    this.notebook = [
-      {
-        id: 1,
-        title: 'Title One',
-        contents: 'Generic Todo One',
-        modified: Date.now.toString(),
-        readonly: false,
-        completed: true
-      },
-      {
-        id: 2,
-        title: 'Title Two',
-        contents: 'Generic Todo Two',
-        modified: Date.now.toString(),
-        readonly: true,
-        completed: false
-      },
-      {
-        id: 3,
-        title: 'Title Three',
-        contents: 'Generic Todo Three',
-        modified: Date.now.toString(),
-        readonly: false,
-        completed: true
-      }
-    ]
+    this.notebook = this.noteService.getNotes();
   }
 
 }
