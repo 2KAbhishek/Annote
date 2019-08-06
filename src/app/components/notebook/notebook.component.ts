@@ -20,7 +20,10 @@ export class NotebookComponent implements OnInit {
   }
 
   deleteNote(note:Note){
-    console.log(note);
+    // UI
+    this.notebook = this.notebook.filter(n => n.id !== note.id);
+    // Server
+    this.noteService.deleteNote(note).subscribe();
   }
 
 }

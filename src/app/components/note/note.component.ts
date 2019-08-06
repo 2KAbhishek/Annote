@@ -26,7 +26,9 @@ export class NoteComponent implements OnInit {
   }
 
   onCompletedToggle(note){
+    // UI
     note.completed = !note.completed;
+    // Server
     this.noteService.toggleCompleted(note).subscribe(note => console.log(note));
   }
 
