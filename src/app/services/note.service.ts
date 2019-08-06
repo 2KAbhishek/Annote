@@ -1,38 +1,17 @@
 import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http'
+import { Note } from '../models/Note'
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class NoteService {
+  notebookUrl:string = 'https://jsonplaceholder.typicode.com/notebook';
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
 
-  getNotes() {
-    return [
-      {
-        id: 1,
-        title: 'Title One',
-        contents: 'Generic Todo One',
-        modified: Date.now.toString(),
-        readonly: false,
-        completed: true
-      },
-      {
-        id: 2,
-        title: 'Title Two',
-        contents: 'Generic Todo Two',
-        modified: Date.now.toString(),
-        readonly: true,
-        completed: false
-      },
-      {
-        id: 3,
-        title: 'Title Three',
-        contents: 'Generic Todo Three',
-        modified: Date.now.toString(),
-        readonly: false,
-        completed: true
-      }
-    ]
+  getNotes():Observable<Note[]> {
+    return this.http.get<Note[]>(this.notebookUrl);
   }
 }

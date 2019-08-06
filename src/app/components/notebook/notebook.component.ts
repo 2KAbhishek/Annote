@@ -14,7 +14,9 @@ export class NotebookComponent implements OnInit {
   constructor(private noteService:NoteService) { }
 
   ngOnInit() {
-    this.notebook = this.noteService.getNotes();
+    this.noteService.getNotes().subscribe(notebook =>{
+      this.notebook = notebook;
+    });
   }
 
 }
