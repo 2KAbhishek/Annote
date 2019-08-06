@@ -1,0 +1,12 @@
+{
+    "notes": [
+        {
+            "id" : 1,
+            "title": "Test note",
+            "contents": "Import the test note.",
+            "modified": "Tue Aug  6 17:35:14 IST 2019",
+            "readonly": true,
+            "completed":false
+        }
+    ]
+}
