@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class NoteService {
-  notebookUrl:string = 'https://my-json-server.typicode.com/2kabhishek/Annote';
+  notebookUrl:string = 'https://my-json-server.typicode.com/2kabhishek/Annote/notes';
 
   constructor(private http:HttpClient) { }
 
