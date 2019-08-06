@@ -4,4 +4,5 @@ export class Note {
     contents:string;
     modified:string;
     editable:boolean;
+    completed:boolean;
 }
