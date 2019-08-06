@@ -19,7 +19,7 @@ export class NotebookComponent implements OnInit {
         title: 'Title One',
         contents: 'Generic Todo One',
         modified: Date.now.toString(),
-        editable: false,
+        readonly: false,
         completed: true
       },
       {
@@ -27,7 +27,7 @@ export class NotebookComponent implements OnInit {
         title: 'Title Two',
         contents: 'Generic Todo Two',
         modified: Date.now.toString(),
-        editable: true,
+        readonly: true,
         completed: false
       },
       {
@@ -35,7 +35,7 @@ export class NotebookComponent implements OnInit {
         title: 'Title Three',
         contents: 'Generic Todo Three',
         modified: Date.now.toString(),
-        editable: false,
+        readonly: false,
         completed: true
       }
     ]

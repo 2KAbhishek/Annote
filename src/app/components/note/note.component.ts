@@ -14,4 +14,14 @@ export class NoteComponent implements OnInit {
   ngOnInit() {
   }
 
+  // Set Dynamic classes
+  setClasses(){
+    let classes ={
+      note: true,
+      'is-completed': this.note.completed,
+      'is-readonly': this.note.readonly
+    }
+    return classes;
+  }
+
 }

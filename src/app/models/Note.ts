@@ -3,6 +3,6 @@ export class Note {
     title:string;
     contents:string;
     modified:string;
-    editable:boolean;
+    readonly:boolean;
     completed:boolean;
 }
