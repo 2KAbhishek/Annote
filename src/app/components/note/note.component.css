@@ -2,20 +2,26 @@
     background: #ee1030;
     color: #fff;
     border: none;
-    padding: 5px 9px;
+    padding: 5px 10px;
     border-radius: 50%;
     cursor: pointer;
     float: right;
+
+}
+
+.date{
+    float: right;
+    margin-inline-end: 5px;
 }
 
 .note {
     background: #d0d0d0;
     padding: 10px;
-    border-bottom: 1px #999 dotted;
+    border-bottom: 1px #999 solid;
 }
 
 .is-completed {
-    text-decoration: line-through;
+    text-decoration: line-through #444;
 }
 
 .is-readonly {

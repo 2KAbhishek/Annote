@@ -1,5 +1,7 @@
 .form {
     display: flex;
+    background: #d0d0d0;
+    border: black;
 }
 
 .form input[type='text'] {
@@ -9,4 +11,9 @@
 
 .form input[type='submit'] {
     flex: 2;
+    margin: 5px;
+}
+
+.form input[type='checkbox'] {
+    margin: 5px;
 }

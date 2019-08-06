@@ -1,5 +1,8 @@
-<form class="form">
-    <input type="text" class="title"[(ngModel)]="title"
+<form class="form" (ngSubmit)="onSubmit">
+    <input type="checkbox" value="Read-Only" name="readonly" [(ngModel)]="readonly">
+    <input type="text" name="title" class="title"[(ngModel)]="title"
     placeholder="Note Title">
+    <input type="text" name="contents" class="contents"[(ngModel)]="contents"
+    placeholder="Note Contents">
     <input type="submit" value="Submit" class="btn">
 </form>
