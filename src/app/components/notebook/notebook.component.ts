@@ -26,4 +26,10 @@ export class NotebookComponent implements OnInit {
     this.noteService.deleteNote(note).subscribe();
   }
 
+  addNote(note:Note){
+    this.noteService.addNote(note).subscribe(note =>{
+      this.notebook.push(note);
+    })
+  }
+
 }

@@ -30,4 +30,9 @@ export class NoteService {
     const url = `${this.notebookUrl}/${note.id}`;
     return this.http.delete<Note>(url, httpOptions);
   }
+
+  addNote(note:Note):Observable<Note>{
+    return this.http.post<Note>(this.notebookUrl, note, httpOptions);
+  }
+
 }
