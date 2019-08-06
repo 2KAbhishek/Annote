@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { Note } from 'src/app/models/Note';
 import { NoteService } from 'src/app/services/note.service'
 
@@ -8,8 +8,8 @@ import { NoteService } from 'src/app/services/note.service'
   styleUrls: ['./note.component.css']
 })
 export class NoteComponent implements OnInit {
-@Input() note: Note;
-
+  @Input() note: Note;
+  @Output() deleteNote: EventEmitter<Note> = new EventEmitter();
   constructor(private noteService:NoteService) { }
 
   ngOnInit() {
@@ -31,6 +31,6 @@ export class NoteComponent implements OnInit {
   }
 
   onDeleted(note){
-    console.log('delete');
+    this.deleteNote.emit(note);
   }
 }

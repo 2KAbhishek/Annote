@@ -19,4 +19,8 @@ export class NotebookComponent implements OnInit {
     });
   }
 
+  deleteNote(note:Note){
+    console.log(note);
+  }
+
 }
