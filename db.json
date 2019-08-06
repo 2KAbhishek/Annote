@@ -10,15 +10,23 @@
     {
       "id": 2,
       "title": "JSON Placeholder",
-      "contents": "Note db exists in the repo.",
+      "contents": "Notes exist in db.json the repo.",
       "modified": "Tue Aug  6 17:57:10 IST 2019",
       "readonly": false,
-      "completed": true
+      "completed": false
     },
     {
       "id": 3,
       "title": "Show notes",
       "contents": "Display notes properties at correct places.",
+      "modified": "Tue Aug  6 17:58:21 IST 2019",
+      "readonly": false,
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Multiline notes",
+      "contents": "This is a long note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget arcu ante. Nam lobortis pellentesque nisi, in mattis urna pellentesque ac. Nunc fermentum mollis metus sit amet eleifend. Nulla lobortis felis non sapien blandit fringilla. Ut ut elit vitae risus aliquet fringilla in sed nunc.",
       "modified": "Tue Aug  6 17:58:21 IST 2019",
       "readonly": false,
       "completed": false
