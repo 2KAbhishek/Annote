@@ -1,0 +1,23 @@
+.del {
+    background: #ee1030;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+.note {
+    background: #d0d0d0;
+    padding: 10px;
+    border-bottom: 1px #999 dotted;
+}
+
+.is-completed {
+    text-decoration: line-through;
+}
+
+.is-readonly {
+    color: gray;
+}
