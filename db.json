@@ -1,12 +1,27 @@
 {
-    "notes": [
-        {
-            "id" : 1,
-            "title": "Test note",
-            "contents": "Import the test note.",
-            "modified": "Tue Aug  6 17:35:14 IST 2019",
-            "readonly": true,
-            "completed":false
-        }
-    ]
+  "notebook": [{
+      "id": 1,
+      "title": "Test note",
+      "contents": "Import the test note.",
+      "modified": "Tue Aug  6 17:35:14 IST 2019",
+      "readonly": true,
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "JSON Placeholder",
+      "contents": "Note db exists in the repo.",
+      "modified": "Tue Aug  6 17:57:10 IST 2019",
+      "readonly": false,
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Show notes",
+      "contents": "Display notes properties at correct places.",
+      "modified": "Tue Aug  6 17:58:21 IST 2019",
+      "readonly": false,
+      "completed": false
+    }
+  ]
 }
