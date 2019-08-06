@@ -24,4 +24,11 @@ export class NoteComponent implements OnInit {
     return classes;
   }
 
+  onCompletedToggle(note){
+    note.completed = !note.completed;
+  }
+
+  onDeleted(note){
+    console.log('delete');
+  }
 }
