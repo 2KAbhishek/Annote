@@ -3,7 +3,7 @@
       "id": 1,
       "title": "Test note",
       "contents": "Import the test note.",
-      "modified": "Tue Aug  6 17:35:14 IST 2019",
+      "modified": "Tue Aug 06 2019 17:35:14",
       "readonly": true,
       "completed": false
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "title": "JSON Placeholder",
       "contents": "Notes exist in db.json the repo.",
-      "modified": "Tue Aug  6 17:57:10 IST 2019",
+      "modified": "Tue Aug 06 2019 17:57:10",
       "readonly": false,
       "completed": false
     },
@@ -19,15 +19,15 @@
       "id": 3,
       "title": "Show notes",
       "contents": "Display notes properties at correct places.",
-      "modified": "Tue Aug  6 17:58:21 IST 2019",
+      "modified": "Tue Aug 06 2019 17:58:21",
       "readonly": false,
       "completed": false
     },
     {
       "id": 4,
       "title": "Multiline notes",
-      "contents": "This is a long note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget arcu ante. Nam lobortis pellentesque nisi, in mattis urna pellentesque ac. Nunc fermentum mollis metus sit amet eleifend. Nulla lobortis felis non sapien blandit fringilla. Ut ut elit vitae risus aliquet fringilla in sed nunc.",
-      "modified": "Tue Aug  6 17:58:21 IST 2019",
+      "contents": "This is a long note. This note is long for no particular reason. Except for one maybe? to test how multiline notes look like. You want even longer notes? Write it yourself! I've got some code to write.",
+      "modified": "Wed Aug 06 2019 04:58:21",
       "readonly": false,
       "completed": false
     }
