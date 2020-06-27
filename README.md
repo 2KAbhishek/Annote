@@ -1,5 +1,3 @@
-<div align="center">
-
 # Annote
 
 ![Size](https://img.shields.io/github/repo-size/2kabhishek/Annote?style=plastic&color=0f0&label=Size)
@@ -12,7 +10,6 @@
 
 Annote is a Notes/Todo app created using Angular.
 
-</div>
 
 It uses [MyJSONServer](https://my-json-server.typicode.com/) for hosting the dummy database.
 
@@ -29,5 +26,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Please consider hitting the ⭐ star button if this repo was useful to you, any contributions and suggestions are welcome.
 
