@@ -1,15 +1,19 @@
+<div align="center">
+
 # Annote
 
-![Size](https://img.shields.io/github/repo-size/2kabhishek/Annote?style=plastic&color=green&label=Size)
-![Updated](https://img.shields.io/github/last-commit/2kabhishek/Annote?style=plastic&color=red&label=Updated)
-![License](https://img.shields.io/github/license/2kabhishek/Annote?style=plastic&color=lightgrey&label=License)
-![Stars](https://img.shields.io/github/stars/2kabhishek/Annote?style=plastic&color=ffd500&label=Stars)
-![Forks](https://img.shields.io/github/forks/2kabhishek/Annote?style=plastic&color=brightgreen&label=Forks)
-![Watchers](https://img.shields.io/github/watchers/2kabhishek/Annote?style=plastic&color=orange&label=Watchers)
-![Contributors](https://img.shields.io/github/contributors/2kabhishek/Annote?style=plastic&color=ff69b4&label=Contributors)
-![Followers](https://img.shields.io/github/followers/2kabhishek?style=plastic&color=blue&label=Followers)
+![Size](https://img.shields.io/github/repo-size/2kabhishek/Annote?style=plastic&color=0f0&label=Size)
+![Updated](https://img.shields.io/github/last-commit/2kabhishek/Annote?style=plastic&color=f00&label=Updated)
+![Stars](https://img.shields.io/github/stars/2kabhishek/Annote?style=plastic&color=ffc801&label=Stars)
+![Forks](https://img.shields.io/github/forks/2kabhishek/Annote?style=plastic&color=003cff&label=Forks)
+![Watchers](https://img.shields.io/github/watchers/2kabhishek/Annote?style=plastic&color=ff5500&label=Watchers)
+![Contributors](https://img.shields.io/github/contributors/2kabhishek/Annote?style=plastic&color=f0f&label=Contributors)
+![License](https://img.shields.io/github/license/2kabhishek/Annote?style=plastic&color=555&label=License)
 
-Annote is a Notes/Todo app created using [Angular](https://github.com/angular/).
+Annote is a Notes/Todo app created using Angular.
+
+</div>
+
 It uses [MyJSONServer](https://my-json-server.typicode.com/) for hosting the dummy database.
 
 ## Setup
@@ -24,3 +28,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+Please consider hitting the ⭐ star button if this repo was useful to you, any contributions and suggestions are welcome.
+
